@@ -1,0 +1,25 @@
+// JavaScript mai jo object hota hai wahi mongodb mai document hoti hai
+//JavaScript mai jo array of object hota hai wo mongodb mai collection of documents.
+//JavaScript mai jo Key hota hai wahi mongodb mai Field or attributes hoti hai
+//JavaScript mai jo value hota hai wahi mongodb mai value hoti hai
+//JavaScript mai jo datastructure hoti hai wo mongodb database banegi 
+//JavaScript mai jo function hoti hai wo mongodb mai query hoti hai
+
+
+//file system mai jo parent folder name hai wo mongodb ke terms mai database. 
+//parent folder ke andar jo subfolders hongi wo mongodb ke terms mai collections.
+//subfolder ke andar jo files hongi wo mongodb ke terms mai documents. 
+//file system mai jo file name hota hai wo mongodb ke terms mai field name hota hai
+//file system mai jo data hota hai wo mongodb ke terms mai value hota hai.
+//file system mai jo function hoti hai wo mongodb mai query hoti hai.
+
+
+//jab bhi database mai ek naya database banta hai to wo kuch empty parent folder jaise hota hai.
+//empty parent folder mongodb mai allowed nahi hota hai. that means empty database is not allowed in mongodb.
+//is matlab kam se kam ek collection/subfolder/array hona chahiye.
+//subfolder empty ho sakta hai lekin parent folder empty nahi ho sakta.
+//matlab empty collection/empty array is allowed but empty database is not allowed. 
+
+
+//collection name / subfolder / array of object inka name singular nahi ho sakta.
+//yeh hamesha pular form mai hi honge. example users, products, messages, orders

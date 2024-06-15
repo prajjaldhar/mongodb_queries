@@ -1,0 +1,41 @@
+//1.for all the filter queries we use to do find method
+//2.find method pure document mai use hota hai 
+//3. iska matalb hai ki each and every document apne apne mai seperate document hai un documents mai jo bhi chize(keys:value pair)  particular condition ko match kar rahi hai un sabhi documents ko filter karke lane ka kaam find method karti hai 
+
+Chapter 2: aggregation pipeline 
+group karenge documents ka fir unme kuch find karne wale hai 
+pipeline ek ke baad dusra 
+
+
+mongodb is having objectid with itself which makes all the document unique. It has no such problem of primary key, secondary key, candidate key.
+
+mongodb is scalable  
+It stores data either of the two methods One is vertical scalable method and other one is horizontal scalable method. 
+
+System design mein ek part hoti hai scaling 
+
+sharding : horizontal vertical 
+horizontal we divide the physical memory into multiple sub memories 
+vertical we try to increase the physical memory 
+
+
+aggregation pipleline ke mostly used operators hai: 
+
+$match == find  
+condition ko match karwane ke liye use hogi 
+
+$group : jab hume documents ki grouping karni hogi
+
+$projection : jab humne limited keys dikhani ho 
+
+$unwind : jab hume array ko todna ho 
+
+system design:
+1. monolithic architecture
+2. distributive architecture 
+
+database software webapp website
+
+database:  monolithic or distributive
+monolithic = find, vertical scaling
+distributive = aggregation pipleline, horizontal scaling 
